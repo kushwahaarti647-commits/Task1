@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Webpage</title>
+
+    <style>
+        /* CSS Styling */
+        body{
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 30px;
+        }
+
+        h1{
+            color: blue;
+        }
+
+        p{
+            color: #333;
+            font-size: 18px;
+        }
+
+        img{
+            width: 300px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        a{
+            display: inline-block;
+            margin-top: 15px;
+            text-decoration: none;
+            color: white;
+            background: green;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        a:hover{
+            background: darkgreen;
+        }
+
+        button{
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: orange;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HTML Elements -->
+    <h1>Welcome to My Webpage</h1>
+
+    <p>This is a simple webpage created using HTML, CSS and JavaScript.</p>
+
+    
+    <br>
+
+    <a href="https://www.google.com" target="_blank">
+        Visit Google
+    </a>
+
+    <br>
+
+    <!-- JavaScript Button -->
+    <button onclick="showMessage()">
+        Click Me
+    </button>
+
+    <script>
+        // JavaScript
+        function showMessage(){
+            alert("Hello! Button clicked successfully.");
+        }
+    </script>
+
+</body>
+</html>
